@@ -1,0 +1,4 @@
+<?php
+$componentReturn = '';
+$componentReturn .= '<h1>%%HEADER%%</h1>';
+?>

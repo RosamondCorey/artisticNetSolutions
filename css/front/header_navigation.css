@@ -1,0 +1,144 @@
+body div.t1_hc div.header_navigation{
+	width:978px;
+	background:#181818;
+	height:70px;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	position:absolute;
+	left:0px;
+	bottom:0px;
+}
+body div.t1_hc div.header_navigation ul{
+	margin:0px;
+	padding:0px;
+	display:block;
+	width:735px;
+	height:70px;	
+}
+body div.t1_hc div.header_navigation ul li{
+	display:block;
+	float:left;
+	margin:0px 0px 0px 1px;
+	padding:0px;
+	height:65px;
+	width:104px;
+	border-top:5px solid black;
+	background: url('../../images/common_images/nav_bg.png') left top repeat-x;
+}
+body div.t1_hc div.header_navigation ul li a{
+	display:block;
+	padding:35px 0px 0px 0px;
+	width:104px;
+	height:30px;
+	text-align:center;
+	text-decoration:none;
+	font-family:lato;
+	color:white;
+	font-size:14px;
+}
+
+body div.t1_hc div.header_navigation ul li.company{
+	border-top:5px solid #61366A;
+}
+body div.t1_hc div.header_navigation ul li.company:hover{
+	border-top:5px solid #171717;
+}
+body div.t1_hc div.header_navigation ul li.company_active{
+	border-top:5px solid #61366A;
+	background:#1C1C1C;	
+}
+body div.t1_hc div.header_navigation ul li.services{
+	border-top:5px solid #FF6B1C;
+}
+body div.t1_hc div.header_navigation ul li.services:hover{
+	border-top:5px solid #171717;
+}
+body div.t1_hc div.header_navigation ul li.services_active{
+	border-top:5px solid #FF6B1C;
+	background:#1C1C1C;	
+}
+body div.t1_hc div.header_navigation ul li.customer{
+	border-top:5px solid #8DC63F;
+}
+body div.t1_hc div.header_navigation ul li.customer:hover{
+	border-top:5px solid #171717;
+}
+body div.t1_hc div.header_navigation ul li.customer_active{
+	border-top:5px solid #8DC63F;
+	background:#1C1C1C;	
+}
+
+
+
+body div.t1_hc2 div.header_navigation{
+	width:764px;
+	background:#181818;
+	height:60px;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	position:absolute;
+	right:0px;
+	top:0px;
+}
+body div.t1_hc2 div.header_navigation ul{
+	margin:7px 0px 0px 10px;
+	padding:0px;
+	display:block;
+	width:602px;
+	height:43px;	
+}
+body div.t1_hc2 div.header_navigation ul li{
+	display:block;
+	float:left;
+	margin:0px 0px 0px 1px;
+	padding:0;
+	height:43px;
+	width:85px;
+	border-top:3px solid black;
+	background: url('../../images/common_images/nav_bg.png') left top repeat-x;
+}
+body div.t1_hc2 div.header_navigation ul li a{
+	display:block;
+	padding:0px 0px 0px 0px;
+	height:43px;
+	text-align:center;
+	text-decoration:none;
+	font-family:lato;
+	color:white;
+	font-size:11px;
+	line-height:43px;
+	width:85px;
+	border-bottom:1px solid #101010;
+}
+
+body div.t1_hc2 div.header_navigation ul li.company{
+	border-top:3px solid #61366A;
+}
+body div.t1_hc2 div.header_navigation ul li.company:hover{
+	border-top:3px solid #171717;
+}
+body div.t1_hc2 div.header_navigation ul li.company_active{
+	border-top:3px solid #61366A;
+	background:#1C1C1C;	
+}
+body div.t1_hc2 div.header_navigation ul li.services{
+	border-top:3px solid #FF6B1C;
+}
+body div.t1_hc2 div.header_navigation ul li.services:hover{
+	border-top:3px solid #171717;
+}
+body div.t1_hc2 div.header_navigation ul li.services_active{
+	border-top:3px solid #FF6B1C;
+	background:#1C1C1C;	
+}
+body div.t1_hc2 div.header_navigation ul li.customer{
+	border-top:3px solid #8DC63F;
+}
+body div.t1_hc2 div.header_navigation ul li.customer:hover{
+	border-top:3px solid #171717;
+}
+body div.t1_hc2 div.header_navigation ul li.customer_active{
+	border-top:3px solid #8DC63F;
+	background:#1C1C1C;	
+}
+

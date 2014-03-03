@@ -1,0 +1,252 @@
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;
+	font-family:Arial;
+	font-size:12px;
+	background:url('../../../administration/images/bodybg.jpg') repeat-x #F0F0F0;
+	color:#525252;
+}
+body a{
+	color:#3f94b6;
+}
+div.exampleText{
+	width:760px;
+	margin:0px 10px 10px 5px;
+	border:1px solid black;
+	padding:5px;
+}
+img.leftimg{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:16px;
+	height:32px;
+}
+img.rightimg{
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:16px;
+	height:32px;
+}
+div.admin_container{
+	margin:0px;
+	padding:0px;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	border-left:1px solid #c6c6c6;
+	border-right:1px solid #c6c6c6;
+}
+div.viewport{
+	width:1000px;
+	margin:0px;
+	padding:0px;
+	background:white;
+	background: url('../../../administration/images/vp_bg.gif') left top repeat-y White;
+}
+div.left_navigation{
+	display:inline;
+	float:left;
+	width:199px;
+	margin-left:0px;
+	margin-right:-199px;
+	padding:0px;
+}
+
+div.left_navigation ul.left_navigation_ul{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	list-style:none;
+	width:199px;
+}
+div.left_navigation ul.left_navigation_ul li {
+	background:#414141;
+	display:block;
+	width:199px;
+}
+div.left_navigation ul.left_navigation_ul li a{
+	display:block;
+	height:31px;
+	padding:9px 0px 0px 0px;
+	font-size:14px;
+	text-decoration:none;
+	font-weight:bold;
+	color:white;
+	font-family:arial;
+}
+div.left_navigation ul.left_navigation_ul li.active{
+	background:white;
+}
+div.left_navigation ul.left_navigation_ul li.active a{
+	color:#414141;
+}
+div.left_navigation ul.left_navigation_ul li ul.sub_ul{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	list-style:none;
+	background:#525252;
+	display:block;
+	width:199px;
+}
+div.left_navigation ul.left_navigation_ul li ul.sub_ul li{
+	width:169px;
+	margin:0px;
+	padding:0px 0px 0px 30px;
+	border-bottom:1px solid #414141;
+	background:#525252;
+	display:block;
+}
+div.left_navigation ul.left_navigation_ul li ul.sub_ul li:hover a{
+	text-decoration:underline;
+}
+div.left_navigation ul.left_navigation_ul li ul.sub_ul li.active{
+	background:white;
+}
+div.left_navigation ul.left_navigation_ul li ul.sub_ul li.active a{
+	color:#414141;
+}
+div.left_navigation ul.left_navigation_ul li ul.sub_ul li a{
+	color: white;
+	text-decoration:none;
+	font-size:12px;
+	display:block;
+}
+div.content_area{
+	display:inline;
+	float:left;
+	width:790px;
+	margin-left:210px;
+	margin-right:-810px;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding:0;
+	position:relative;
+}
+div.cms_content{
+	border-left:1px solid #525252;
+	margin:0px;
+	padding:0px;
+}
+div.cms_content h2{
+	font-size:14px;
+	font-weight:bold;
+	margin:0px;
+	padding:5px 5px 5px 5px;
+}
+div.cms_content p{
+	margin:0px;
+	font-size:12px;
+	padding:5px 5px 5px 5px;
+}
+div.content_area div.cms_header{
+	position:relative;
+	height:30px;
+	width:780px;
+	margin:0px 0px 0px 0px;
+	padding:10px 0px 0px 10px;
+	font-size:14px;
+	font-weight:bold;
+	color:white;
+	background:#525252;
+}
+div.content_area div.cms_header h1{
+	font-family: arial;
+	font-weight:bold;
+	font-size:14px;
+	margin:2px 0px 0px 5px;
+	padding:0px;
+	display:block;
+	float:left;
+}
+div.content_area div.cms_header img {
+	float:left;
+}
+div.content_area div.content_footer{
+	position:relative;
+	height:27px;
+	width:790px;
+	margin:0px;
+	padding:13px 0 0 0;
+	background:#525252;
+}
+table.cms_tabular{
+	width:789px;
+}
+div.content_area div.content_footer  div.footer_span_grad{
+	height:40px;
+	width:790px;
+	padding:13px 0 0 0;
+	margin:0px;
+}
+table.cms_tabular tr.tr_th_bg{
+	height:40px;
+	background:#dcdcdc;
+}
+table.cms_tabular tr.tr_th_bg th{
+	border-bottom:1px solid #c6c6c6;
+}
+table.cms_tabular td{
+	height:30px;
+}
+input.button{
+	border:1px solid white;
+	height:30px;
+	font-size:12px;
+	line-height:14px;
+	font-family:arial;
+	color:#525252;
+	background: url('../../../administration/images/btn_silver_bg.gif') repeat-x left top;
+	padding:7px 12px 6px 12px;
+	display:inline;
+	text-decoration:none;
+	position:absolute;
+	right:5px;
+	top:5px;
+}
+input.button:hover{
+	background:grey;
+	color:white;
+	border:1px solid black;
+	position:absolute;
+	right:5px;
+	top:5px;
+}
+a.edit{
+	display:block;
+	height:14px;
+	width:16px;
+	margin:0px;
+	padding:0px;
+	background: url('../../../administration/images/edit.gif') left top;
+	text-decoration:none;
+}
+p.delete{
+	display:block;
+	height:4px;
+	width:5px;
+	margin:0px;
+	padding:0px;
+	background: url('../../../administration/images/delete.gif') left top;
+	cursor:pointer;
+	text-decoration:none;
+}
+a.button{
+	border:1px solid white;
+	height:20px;
+	font-size:12px;
+	line-height:14px;
+	color:#525252;
+	background: url('../../../administration/images/btn_silver_bg.gif') repeat-x left top;
+	padding:7px 12px 6px 12px;
+	display:inline;
+	text-decoration:none;
+}
+a.button:hover{
+	background:grey;
+	color:white;
+	border:1px solid black;
+}

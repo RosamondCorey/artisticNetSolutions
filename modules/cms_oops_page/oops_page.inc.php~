@@ -1,0 +1,8 @@
+<?php
+$moduleReturn = '';
+$moduleReturn .= '<h1>%%HEADER%%</h1>';
+$moduleReturn .= '<h2>%%SUB_HEADER</h2>';
+$moduleReturn .= '%%CONTENT%%';
+$moduelReturn .= print_r($_SESSION['errors']);
+
+?>

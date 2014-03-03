@@ -1,0 +1,37 @@
+div.t1_fct_nav{
+	width:500px;
+	height:44px;
+	float:left;
+	display:inline;
+	margin-left:10px;
+	margin-right:-510px;
+	margin-top:15px;
+}
+div.t1_fct_nav ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	list-style-type:none;
+	height:44px;
+}
+div.t1_fct_nav ul li{
+	display:block;
+	float:left;
+	margin:0px;
+	padding:0px;
+	border-top:3px solid #535353;
+	height:44px;
+	background: url('../../images/common_images/footer_nav_bg.png') left top repeat-x;
+	margin-right:1px;
+}
+div.t1_fct_nav ul li a{
+	display:block;
+	height:40px;
+	color:white;
+	font-size:12px;
+	margin:0px;
+	line-height:37px;
+	padding:0px 15px 0px 15px;
+	border-bottom:1px solid #101010;
+	text-decoration:none;
+}	

@@ -1,0 +1,290 @@
+img{
+	border:0px solid white;
+} 
+body div.t1_mc{
+	width:978px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:0px;
+	margin-bottom:0px;	
+}
+body div.t1_bc div.t1_bch{
+	width:968px;
+	height:255px;
+	margin:10px 0 5px 0;
+	padding:5px;
+	background:#151515;
+}
+body div.t1_bc div.t1_bch2{
+	width:968px;
+	height:104px;
+	margin:11px 0 5px 0;
+	padding:5px;
+	background:#151515;
+}
+body div.t1_brs{
+	display:inline;
+	float:left;
+	margin-left:736px;
+	margin-right:-978px;
+	width:242px;
+	padding:0px;
+	margin-top:10px;
+}
+body div.t1_bls{
+	display:inline;
+	float:left;
+	margin-left:0px;
+	margin-right:-731px;
+	width:731px;
+	margin-top:15px;
+	
+}
+div.twitter_post_containe{
+	display:block;
+	background:#171717;
+	padding:5px;
+	color:white;
+	font-size:11px;
+	margin-bottom:5px;
+	margin-left:10px;
+}
+div.twitter_post_containe div.twitter_post_img{
+	float:left;
+	height:48px;
+	width:48px;
+	margin:0px 10px 0px 0px;
+	border:2px solid #282828;
+}
+h2.twitter_header{
+	color:white;
+	font-size:16px;
+	font-weight:normal;
+	margin:0px;
+	padding:0px 0px 0px 30px;
+	line-height:30px;
+	margin:0px 0px 5px 15px;
+	background: url('../../images/common_images/twitter_feed.jpg') left top no-repeat;
+}
+a.twiter_follow_us{
+	color:white;
+	text-decoration:none;
+	font-size:13px;
+	line-height:52px;
+	text-align:center;
+	display:block;
+	width:232px;
+	height:52px;
+	background: url('../../images/common_images/follow_twitter_bg.png') left top repeat-x;
+	font-weight:bold;
+	margin-left:11px;
+}
+div.content_topper{
+	width:631px;
+	height:15px;
+	margin:0px;
+	padding:0px;
+	background: url('../../images/common_images/content_topper.png') left top repeat-x;
+	margin-left:105px;
+}
+div.content_bottom{
+	width:631px;
+	height:15px;
+	margin:0px;
+	padding:0px;
+	background: url('../../images/common_images/content_bottom.png') left top repeat-x;
+	margin-left:105px;
+	position:absolute;
+	bottom:0px;
+	right:0px;
+}
+div.left_content{
+	float:left;
+	display:inline;
+	width:105px;
+	margin-left:0px;
+	margin-right:-105px;
+	position:relative;
+	z-index:888888888;
+}
+div.right_content{
+	float:left;
+	display:inline;
+	width:556px;
+	margin-left:105px;
+	margin-right:-736px;
+	padding:15px 30px 45px 45px;
+	background: url('../../images/common_images/content_mid_bg.png') left top repeat-y;
+	position:relative;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	line-height:20px;
+	color:#454545;
+}
+div.tab_content{
+	margin:0px;
+	padding:0px;
+}
+div.right_content p{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	line-height:20px;
+	color:#454545;
+	margin:0 0 15px 0;
+	padding:0px;
+}
+h1{
+	font-family:lato;
+	margin:0px;
+	padding:0px;
+	font-size:30px;
+	font-weight:bold;
+	line-height:32px;
+	color:#61366A;	
+}
+h2{
+	font-family:lato;
+	font-weight:100;
+	font-size:20px;
+	font-style:normal;
+	color: #666666;
+	margin:0px;
+	padding:0px;
+	line-height:24px;
+}
+div.tab_active{
+	width:100px;
+	height:46px;
+	background: url('../../images/common_images/tab_bg.png') left top repeat-y;
+	float:right;	
+	margin-right:-30px;
+	margin-bottom:10px;
+	line-height:43px;
+	font-size:14px;
+	color:white;
+	padding:0px 0px 0px 35px;
+	cursor:pointer;
+}
+div.tab_inactive{
+	width:100px;
+	height:46px;
+	float:right;	
+	margin-right:-30px;
+	margin-bottom:10px;
+	line-height:43px;
+	font-size:14px;
+	color:white;
+	padding:0px 0px 0px 35px;
+	cursor:pointer;
+	background: url('../../images/common_images/tab_bg-empty.png') left top repeat-y;
+}
+div.t1_fc{
+	padding:0px 0px 0px 0px;
+	margin-top:20px;
+	height:72px;
+	width:978px;
+	background: url('../../images/common_images/footer_bg.png') left top repeat-x;
+	border-top:1px solid #333333;
+	margin-bottom:30px;
+}
+div.t1_fc div.footer_logo{
+	width:105px;
+	height:72px;
+	margin:0px;
+	padding:0px;
+	background: url('../../images/common_images/footer_logo.jpg') left top repeat-x;
+	float:left;
+	display:inline;
+	margin-left:853px;
+	margin-right:-958px;
+}
+div.t1_fc div.t1_fcb_center{
+	width:300px;
+	text-align:right;
+	color:white;
+	font-size:11px;
+	padding:10px 0px 0px 0px;
+	float:left;
+	display:inline;
+	margin-left:548px;
+	margin-right:-848px;
+	color:#808080;
+	margin-top:10px;
+}
+div.t1_fc div.t1_fcb_center a{
+	color:white;	
+}
+div.hero_content{
+	font-size:13px;
+	padding:0;
+	float:right;
+	width:222px;
+	background:#151515;
+	color:white;
+	height:255px;
+	position:relative;
+}
+div.hero_content h3{
+	margin:5px 0px 10px 0px;
+	padding:0px;
+	font-size:18px;
+	font-weight:bold;	
+	line-height:20px;
+}
+div.slider_readmore{
+	width:119px;
+	height:46px;
+	background: url('../../images/common_images/hero-link_bg.png') left top repeat-y;
+	padding:0px 0px 0px 20px;
+	position:absolute;
+	bottom:10px;
+	left:0px;
+}
+div.slider_readmore a{
+	font-size:16px;
+	line-height:42px;
+	text-decoration:none;	
+	color:white;
+}
+div.content_full{
+	float:left;
+	display:inline;	
+	width:727px;
+	margin-left:0px;
+	margin-right:-727px;
+}
+div.content_full div.content_topper_full{
+	width:727px;
+	margin:0px;
+	padding:0px;
+	height:15px;
+	background: url('../../images/common_images/content_topper_full.png') left top repeat-x;
+}
+div.content_full div.list_content{
+	width:652px;
+	margin:0px;
+	padding:15px 30px 45px 45px;
+	background: url('../../images/common_images/content_mid_bg_full.png') left top repeat-y;
+	position:relative;
+	margin-bottom:15px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	line-height:20px;
+	color:#454545;
+}
+div.content_full div.list_content p{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	line-height:20px;
+	color:#454545;
+	margin:0 0 15px 0;
+	padding:0px;
+}
+div.content_full div.list_content div.content_bottom_full{
+	width:727px;
+	height:14px;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	background: url('../../images/common_images/content_bottom_full.png') left top repeat-y;
+}

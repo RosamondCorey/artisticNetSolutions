@@ -1,0 +1,13 @@
+<?php 
+	$result = $db->query('SELECT * FROM pages');
+	$moduleReturn = "";
+	$moduleReturn .= "<h1>%%HEADER%%</h1>";
+	$moduleReturn .= '<div class="text_area">';
+	$moduleReturn .= "<p>%%CONTENT_AREA%%</p>";
+	$moduleReturn .= '<ul style="list-style-type:none;list-style:none;padding:0px;margin:10px 0 0 0;">';
+	while($row = mysql_fetch_assoc( $result ) ){
+		$moduleReturn .= '<li style="margin:0px;padding:0px;"> - <a href="%%URL%%index.php?button_id=0&page_id='.$row['page_id'].'">'.$row['cms_page_name'].'</a></li>';
+	}
+	$moduleReturn .= '</ul>';
+	$moduleReturn .= '</div>';
+?>

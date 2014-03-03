@@ -1,0 +1,19 @@
+/* CSS Document */
+div.footer_container{
+	font-size:10px;
+	line-height:11px;
+	text-align:left;
+	height:38px;
+	width:990px;
+	margin:0px;
+	padding:0px 0px 0px 10px;
+	border-top:1px solid #C6C6C6;
+	border-bottom:1px solid #C6C6C6;
+	background:dcdcdc;
+}
+div.footer_container span{
+	font-size:10px;
+	color:#525252;
+	display:block;
+	padding:13px 0 0 0;
+}

@@ -1,0 +1,220 @@
+/* CSS Document */
+div.breadcrumb{
+	height:39px;
+	width:1000px;
+	border-bottom:1px solid #c6c6c6;
+	background:white;
+	position:relative;
+}
+div.breadcrumb div.bc{
+	height:27px;
+	position:absolute;
+	top:0px;
+	left:219px;
+	color:#525252;
+	font-size:12px;
+	font-weight:normal;
+	line-height:14px;
+	margin:12px 0px 0px 0px;
+}
+div.breadcrumb div.bc a{
+	color:#3f94b6;
+	font-size:12px;
+	line-height:14px;
+}
+div.admin_header{
+	width:1000px;
+	height:150px;
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	position:relative;
+	background:white;
+	
+}
+div.admin_header div.admin_logo{
+	width:146px;
+	height:29px;
+	margin:0px;
+	padding:0px;
+	background: url('../../../administration/images/admin_logo.gif') left top;
+	position:absolute;
+	top:20px;
+	left:20px;
+	
+}
+div.admin_header_text{
+	position:absolute;
+	top:25px;
+	left:180px;
+	font-weight:bold;
+	font-size:12px;
+	color:#535353;
+}
+div.admin_header_text p{
+	color:#0157BE;
+	font-weight:bold;
+	position:absolute;
+	top:10px;
+	left:10px;
+	font-size:16px;
+}
+div.admin_header_topper{
+	position:relative;
+	height:32px;
+	width:1000px;
+	margin:0px;
+	padding:0px;
+}
+div.user_creds{
+	margin-left:20px;
+	text-align:left;
+	font-size:12px;
+	padding:10px 0px 0px 0px;
+	font-weight:bold;
+	color:#B0D6ED;
+}
+div.userInfo{
+	width:960px;
+	height:20px;
+	margin:0px;
+	padding:0px 0px 0px 0px;
+	position:absolute;
+	top:60px;
+	left:20px;
+	border-top:1px solid #e8e8e8;
+}
+div.userInfo div.welcome_box{
+	height:16px;
+	width:160px;
+	overflow:auto;
+	margin:0px;
+	padding:3px 0px 0px 10px;
+	background:#e8e8e8;
+	color:#535353;
+	font-size:10px;
+	float:left;
+}
+div.userInfo div.logoutBox{
+	height:16px;
+	width:160px;
+	overflow:auto;
+	margin:0px;
+	padding:3px 0px 0px 0px;
+	color:#535353;
+	font-size:10px; 
+	float:left;
+	margin-left:10px;
+}
+div.userInfo div.notifications{
+	height:16px;
+	width:100px;
+	overflow:auto;
+	margin:0px;
+	padding:3px 0px 0px 10px;
+	background:#e8e8e8;
+	color:#535353;
+	font-size:10px;
+	float:left;
+	margin-left:10px;
+}
+div.userInfo div.notifications a{
+	color:#535353;
+	text-decoration:none;
+}
+div.userInfo div.notifications a img{
+	border:0px solid white;
+	margin:0px 3px 0px 0px;
+}
+div.userInfo div.administration{
+	height:16px;
+	width:100px;
+	overflow:auto;
+	margin:0px;
+	padding:3px 0px 0px 10px;
+	background:#e8e8e8;
+	color:#535353;
+	font-size:10px;
+	float:left;
+	margin-left:390px;
+}
+div.userInfo div.administration a{
+	color:#535353;
+	text-decoration:none;
+}
+div.userInfo div.administration a img{
+	border:0px solid white;
+	margin:0px 3px 0px 0px;
+}
+div.login_box{
+	width:200px;
+	margin:0px;
+	margin-left:auto;
+	margin-right:auto;	
+	margin-top:125px;
+	border:1px solid #525252;
+}
+div.login_box h3{
+	width:100%;
+	height:30px;
+	font-size:14px;
+	font-weight:bold;
+	background:#525252;
+	color:white;
+	margin:0px;
+	padding:0px;
+    text-align:left;
+	line-height:30px;
+}
+div.top_navigation{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	height:50px;
+	width:1000px;
+	margin:0px;
+	padding:0px;
+	background:#dcdcdc;
+	border-bottom:1px solid #c6c6c6;
+}
+div.top_navigation ul{
+	margin:0px;
+	padding:10px 0px 0px 0px;
+	list-style:none;
+	list-style-type:none;
+	display:block;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:1000px;
+	height:39px;
+}
+div.top_navigation ul li{
+	display:block;
+	float:left;
+	margin:0px 0px 0px 10px;
+	padding:7px 10px 0px 10px;
+	height:23px;
+	display:block;
+	border:1px solid #525252;
+	background: url('../../../administration/images/navBG.gif') left top;
+}
+div.top_navigation ul li a{
+	color:white;
+	text-decoration:none;
+	display:block;
+}
+div.top_navigation ul li:hover a{
+	color:black;
+}
+div.top_navigation ul li.active{
+	background:white;
+	height:32px;
+	padding:7px 10px 0px 10px;
+	border-left:1px solid #c6c6c6;
+	border-top:1px solid #c6c6c6;
+	border-right:1px solid #c6c6c6;
+	border-bottom:1px solid white;
+}
+div.top_navigation ul li.active a{
+	color:#535353;
+}

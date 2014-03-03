@@ -1,0 +1,89 @@
+body div.t1_hc{
+	height:235px;
+	width:978px;
+	margin:0px;
+	padding:0px;
+	position:relative;
+}
+body div.t1_hc a.t1_hlogo{
+	display:block;
+	width:223px;
+	height:160px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:0px;
+}
+body div.t1_hc div.header_navigation a.submit_a_project{
+	display:block;
+	float:right;
+	width:232px;
+	height:60px;
+	margin:5px 5px 0 0;
+	padding:0 0 0 0;
+	background: url('../../images/common_images/cta_bg.png') left top repeat-x;
+	cursor:pointer;
+}
+body div.t1_hc div.header_navigation a.submit_a_project span.level_1{
+	color:white;
+	font-size:18px;
+	font-weight:bold;
+	font-family:lato;
+	width:232px;
+	display:block;
+	padding:12px 0px 0px 15px;
+}
+body div.t1_hc div.header_navigation a.submit_a_project span.level_2{
+	color:white;
+	font-size:11px;
+	font-family:lato;
+	width:232px;
+	display:block;
+	padding:0px 0px 0px 15px;
+}
+
+
+body div.t1_hc2{
+	height:77px;
+	width:978px;
+	margin:0px;
+	padding:0px;
+	position:relative;
+}
+body div.t1_hc2 a.t1_hlogo{
+	display:block;
+	width:191px;
+	height:62px;
+	margin-top:15px;
+	margin-bottom:0px;
+	padding:0px;
+}
+body div.t1_hc2 div.header_navigation a.submit_a_project{
+	display:block;
+	float:right;
+	width:132px;
+	height:45px;
+	margin:7px 7px 0 0;
+	padding:0 0 0 0;
+	background: url('../../images/common_images/cta_bg.png') left top repeat-x;
+	cursor:pointer;
+}
+body div.t1_hc2 div.header_navigation a.submit_a_project span.level_1{
+	color:white;
+	font-size:12px;
+	font-weight:bold;
+	font-family:lato;
+	width:117px;
+	display:block;
+	padding:15px 0px 0px 10px;
+}
+body div.t1_hc2 div.header_navigation a.submit_a_project span.level_2{
+	color:white;
+	font-size:0px;
+	font-family:lato;
+	width:0px;
+	display:block;
+	height:0px;
+	padding:0px 0px 0px 0px;
+}
